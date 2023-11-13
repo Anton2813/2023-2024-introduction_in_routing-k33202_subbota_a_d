@@ -19,7 +19,10 @@ Date of finished: 13.11.2023
 4. Cхема приведена в файле schema.jpg
 5. Проверка работоспособности показана в файле check.png
 6. В итоге устройства настроены следующим образом:
+
 R01.TEST
+
+![img.png](img.png)
 ```
 /interface vlan
 add interface=ether1 name=vlan11 vlan-id=11
@@ -45,6 +48,8 @@ add address=192.168.22.0/24 gateway=192.168.22.1
 set name=R01.TEST
 ```
 SW01.L3.01.TEST
+
+![img_1.png](img_1.png)
 ```
 /interface bridge
 add name=bridge1
@@ -72,6 +77,8 @@ add disabled=no interface=ether1
 set name=SW01.L3.01.TEST
 ```
 SW02.L3.01.TEST
+
+![img_2.png](img_2.png)
 ```
 /interface bridge
 add name=bridge11
@@ -91,6 +98,8 @@ add disabled=no interface=bridge11
 set name=SW02.L3.01.TEST
 ```
 SW02.L3.02.TEST
+
+![img_3.png](img_3.png)
 ```
 /interface bridge
 add name=bridge22
@@ -113,6 +122,7 @@ set name=SW02.L3.02.TEST
 
 PC1
 
+![img_4.png](img_4.png)
 ```
 root@PC1:/# ifconfig
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
@@ -174,6 +184,13 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 ```
+## Схема
+![schema.jpg](schema.jpg)
+
+## Проверка работоспособности
+![check.png](check.png)
+
+![img_5.png](img_5.png)
 
 
 
