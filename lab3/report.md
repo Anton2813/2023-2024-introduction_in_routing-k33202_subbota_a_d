@@ -4,7 +4,7 @@ Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introducti
 Year: 2023/2024  
 Group: K33202  
 Author: Subbota Anton Dmitrievich 
-Lab: Lab2  
+Lab: Lab3
 Date of create: 5.11.2023  
 Date of finished: 10.12.2023  
 
